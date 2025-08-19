@@ -39,60 +39,64 @@ html(lang='en')
         .container.px-4.px-lg-5
 
             // Heading Row
-            .row.gx-4.gx-lg-5.align-items-center.my-5
+            .row.gx-3.gx-lg-4.align-items-center.my-5
                 .col-lg-7
                     img.img-fluid.rounded.mb-4.mb-lg-0(src='/assets/screenshot.png', alt='A screenshot of the main page of the RiverStatus tool. The middle of the page has a large vertical rectangle with rounded corners containing the number 2 in large font on a green background indicating the current safety zone. The top of the page three lines of text say: "River Conditions", "Updated: 1:08 am", and "Following the Safety Matrix (August 14th, 2025 version)". In the top right corner is a button to toggle the temperature units to Celsius. Down the left side is a series of current weather datapoints. Down the right is a list of safety rules or other restrictions that apply in the current safety zone.')
 
                 .col-lg-5
-                    h1.font-weight-light Business Name or Tagline
+                    h1.font-weight-light RiverStatus Dashboard
                     p
-                        | This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!
-                    a.btn.btn-primary(href='https://form.jotform.com/252289013994061') I'm Interested!
+                        | Looking for an easy, at a glance view of the river safety conditions near your boathouse? The RiverStatus Dashboard augments your water safety plan with current condition data from sources including the USGS, NOAA, and the EPA for easy viewing at a glance.
+                    a.btn.btn-primary(href='https://rit-rowing.github.io/RiverStatusBoard/') Live demo
 
-            // Call to Action
-            .card.text-white.bg-secondary.my-5.py-4.text-center
-                .card-body
-                    p.text-white.m-0
-                        | This call to action card is a great place to showcase some important information or display a clever tagline!
-
+            //- // Call to Action
+            //- .card.text-white.bg-secondary.my-5.py-4.text-center
+            //-     .card-body
+            //-         p.text-white.m-0
+            //-             | This call to action card is a great place to showcase some important information or display a clever tagline!
             // Content Row
-            .row.gx-4.gx-lg-5
+            .row.gx-3.gx-lg-4
                 .col-md-4.mb-5
                     .card.h-100
                         .card-body
                             h2.card-title Interested?
                             p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                                | Do you think the RiverStatus Dashboard can help level up your water safety process? Fill out the survey below to let us know you are interested and start the conversation! 
                         .card-footer
-                            a.btn.btn-primary.btn-sm(href='https://rit-rowing.github.io/RiverStatusBoard/') Live demo
+                            a.btn.btn-primary.btn-sm(href='https://form.jotform.com/252289013994061') I'm Interested!
 
                 .col-md-4.mb-5
                     .card.h-100
                         .card-body
-                            h2.card-title Can't wait?
+                            h2.card-title The Matrix
                             p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.
+                                | At the core of the status page is a "safety matrix" mapping conditions to "safety zones". Zones can restrict activities to keep everyone safe. Build your matrix with a template below.
                         .card-footer
-                            a.btn.btn-primary.btn-sm(href='https://docs.google.com/spreadsheets/d/1QgBcZsTUlRzKt7XSiZKuAaSbj9ME6agEwYwZm3phPDk/edit?usp=sharing') Download Template
-                            //- a.btn.btn-primary.btn-sm(href='#!') Submit your matrix
+                            a.btn.btn-primary.btn-sm(href='https://docs.google.com/spreadsheets/d/1QgBcZsTUlRzKt7XSiZKuAaSbj9ME6agEwYwZm3phPDk/edit?usp=sharing') View Template
+                            //- a.btn.btn-primary.btn-sm(href='https://github.com/OpenRowingCommunity/RiverStatusDashboard/issues/new') Submit matrix
 
                 .col-md-4.mb-5
                     .card.h-100
                         .card-body
-                            h2.card-title Card Three
+                            h2.card-title Get involved
                             p.card-text
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                                | RiverStatus is part of the OpenRowing family of community-built software projects for rowers. Come meet the community, get involved or check out other projects
                         .card-footer
-                            a.btn.btn-primary.btn-sm(href='#!') More Info
-
+                            a.btn.btn-primary.btn-sm(href='https://openrowing.com') See the Community!
+            .row 
+                .col-6
+                    h2 History
+                    p The RiverStatus Dashboard and Safety Matrix was first created in 2018 by Max Garber for the Three Rivers Rowing Association in Pittsburgh, PA. Since then it has been expanded to allow it to be reused by any rowing club. 
         // Footer
         footer.py-5.bg-dark
             .container.px-4.px-lg-5
                 p.m-0.text-center.text-white
-                    | Made with &#x1F499; under the MIT license as part of the
-                    a(href="https://openrowing.com") OpenRowingCommunity
-                    |. View the 
-                    a(href="https://github.com/OpenRowingCommunity/RiverStatusLandingPage") source code
+                    | Website made with &#x1F499; under the MIT license (#[a(href="https://github.com/OpenRowingCommunity/RiverStatusLandingPage") source code]).
+                    br
+                    | Built using the StartBootstrap Small Business theme.
+                    br
+                    | Part of the #[a(href="https://openrowing.com") OpenRowing Community].
+
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
