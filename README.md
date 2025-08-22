@@ -1,36 +1,16 @@
-# [Start Bootstrap - Small Business](https://startbootstrap.com/template/small-business/)
+# RiverStatusDashboard Landing Page
 
-[Small Business](https://startbootstrap.com/template/small-business/) is a responsive marketing landing page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+This repository contains the source code for the landing page for the RiverStatusDashboard project.
 
 ## Preview
 
-[![Small Business Preview](https://assets.startbootstrap.com/img/screenshots/templates/small-business.png)](https://startbootstrap.github.io/startbootstrap-small-business/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-small-business/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-small-business/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-small-business.svg)](https://www.npmjs.com/package/startbootstrap-small-business)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/small-business/)
-* Install via npm: `npm i startbootstrap-small-business`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-small-business.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-small-business)
+![A screenshot of the RiverStatusDashboard landing page showing a medium sized screenshot in the top left of the page. To the right is a small block of text with a call to action button. three more cards of information with their own buttons sit below it.](./docs/screenshot.png)
 
 ## Usage
 
-### Basic Usage
+Clone this repository and navigate into it. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and (attempt to) live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+The core files for the main content of the site are located in `src/pug` and use [pug syntax](https://pugjs.org/).
 
 #### npm Scripts
 
@@ -47,23 +27,10 @@ You must have npm installed in order to use this build environment.
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-small-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/template/small-business/).
+Have a bug or an issue with this landing page? [Open a new issue](https://github.com/OpenRowingCommunity/RiverStatusLandingPage/issues) here on GitHub.
 
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
+This website was built with the [Start Bootstrap - Small Business](https://startbootstrap.com/template/small-business/) template which is Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE) license.
 
-Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE) license.
+The RiverStatusBoard landing page is also licensed under the MIT license per the [`LICENSE`](./LICENSE) file.
